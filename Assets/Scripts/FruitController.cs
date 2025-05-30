@@ -127,6 +127,13 @@ public class FruitController : MonoBehaviour
 
         if (isWin)
         {
+            SceneTracker.lastLevelIndex = SceneManager.GetActiveScene().buildIndex;
+
+            // Save time remaining for star rating
+            TimerUI timerUI = UnityEngine.Object.FindFirstObjectByType<TimerUI>();
+            PlayerPrefs.SetFloat("TimeLeft", timerUI.timeRemaining);
+            PlayerPrefs.Save();
+
             int currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
             int unlocked = PlayerPrefs.GetInt("UnlockedLevel", 1);
 

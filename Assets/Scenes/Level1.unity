@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 94316817}
   - component: {fileID: 94316816}
   - component: {fileID: 94316815}
+  - component: {fileID: 94316820}
   - component: {fileID: 94316819}
   m_Layer: 0
   m_Name: home
@@ -197,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2bfe8612551c84ea73036fc1b812b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Start
+  sceneToLoad: LevelPick
 --- !u!212 &94316817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -286,6 +287,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   referenceResolution: {x: 1080, y: 1920}
   originalSize: {x: 200, y: 200}
+--- !u!114 &94316820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94316814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44974e769c476d499f91dbb8d204590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleAmount: 1.1
 --- !u!1001 &184882729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1121,6 +1135,7 @@ GameObject:
   - component: {fileID: 1271380249}
   - component: {fileID: 1271380248}
   - component: {fileID: 1271380251}
+  - component: {fileID: 1271380252}
   - component: {fileID: 1271380247}
   - component: {fileID: 1271380250}
   m_Layer: 0
@@ -1276,6 +1291,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eff838fc718e59498e9631e29b7002d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1271380252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271380246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44974e769c476d499f91dbb8d204590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleAmount: 1.1
 --- !u!1 &1409242869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,6 +1416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 914814859}
   timeRemaining: 45
+  startDelay: 0.5
   isCounting: 1
 --- !u!4 &1765165112
 Transform:

@@ -579,6 +579,7 @@ GameObject:
   - component: {fileID: 404369473}
   - component: {fileID: 404369472}
   - component: {fileID: 404369471}
+  - component: {fileID: 404369475}
   - component: {fileID: 404369470}
   m_Layer: 0
   m_Name: reset
@@ -733,6 +734,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.44, y: 3}
   m_SizeDelta: {x: 51.145832, y: 51.145832}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &404369475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404369469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44974e769c476d499f91dbb8d204590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleAmount: 1.1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1082,7 @@ GameObject:
   - component: {fileID: 677712263}
   - component: {fileID: 677712262}
   - component: {fileID: 677712261}
+  - component: {fileID: 677712265}
   - component: {fileID: 677712260}
   m_Layer: 0
   m_Name: home
@@ -1148,7 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2bfe8612551c84ea73036fc1b812b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Start
+  sceneToLoad: LevelPick
 --- !u!212 &677712263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1223,6 +1238,19 @@ RectTransform:
   m_AnchoredPosition: {x: -3.49, y: 2.97}
   m_SizeDelta: {x: 51.145832, y: 51.145832}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &677712265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677712259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44974e769c476d499f91dbb8d204590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleAmount: 1.1
 --- !u!1 &1233371450
 GameObject:
   m_ObjectHideFlags: 0
