@@ -1,7 +1,7 @@
 # Unison-Puzzle-OrangeGame-NotForMobile
 -The Next Level button on the Win Scene functionality isn't working. Please try pressing the Home button to return to the Level Picking scene, then continue. The scripts are there, I tried fixing them, but somehow miserably failed.
 
--Level button locking is missing. Will try to make it if I have more time before the deadline.
+-Level button locking is missing. Will try to make it if I have more time before the deadline. (makin it rn xd)
 
 -Added some bonus cool sound effects and background music with a small feature.
 
@@ -9,7 +9,7 @@
 
 *Also tile grid size too.
 
-***Note:*** The requirements were to make this on mobile, but I have never developed a mobile game before, so of course, I do not know how to port this to mobile. The editor was 2D Mobile Platform, but after trying to test on Device Simulator running iOS, the entire game broke lol.
+***Note: The requirements were to make this on mobile, but I have never developed a mobile game before, so of course, I do not know how to port this to mobile. The editor was 2D Mobile Platform, but after trying to test on Device Simulator running iOS, the entire game broke lol.***
 
 <details>
   <summary>dont click here</summary>
