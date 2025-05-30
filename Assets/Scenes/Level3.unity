@@ -1259,7 +1259,11 @@ MonoBehaviour:
   - {fileID: 3045084798444399754, guid: df54d128741d35845be0a916b0292a7c, type: 3}
   - {fileID: 6554196446980620194, guid: 4cff31325fd4b344eb05f49f23d4c5da, type: 3}
   fruitPieces: []
-  fruitSpawnPositions: []
+  fruitSpawnPositions:
+  - {x: 1, y: 2}
+  - {x: 2, y: 4}
+  - {x: 3, y: 3}
+  - {x: 4, y: 4}
   spawnMode: 1
 --- !u!4 &1233371452
 Transform:
@@ -1307,6 +1311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 304826885}
   timeRemaining: 45
+  startDelay: 0.5
   isCounting: 1
 --- !u!4 &1380796959
 Transform:

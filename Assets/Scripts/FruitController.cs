@@ -127,6 +127,14 @@ public class FruitController : MonoBehaviour
 
         if (isWin)
         {
+            int currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
+            int unlocked = PlayerPrefs.GetInt("UnlockedLevel", 1);
+
+            if (currentLevelIndex >= unlocked)
+            {
+                PlayerPrefs.SetInt("UnlockedLevel", currentLevelIndex + 1);
+            }
+
             Debug.Log("Win!");
 
             SceneTracker.lastLevelIndex = SceneManager.GetActiveScene().buildIndex;
