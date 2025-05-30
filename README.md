@@ -1,7 +1,7 @@
 # Unison-Puzzle-OrangeGame-NotForMobile
 -The Next Level button on the Win Scene functionality isn't working. Please try pressing the Home button to return to the Level Picking scene, then continue. The scripts are there, I tried fixing them, but somehow miserably failed.
 
--Two buttons unlock and lock all levels from top down in the level pick scene, respectively, *but require a scene restart by clicking on the home button to return, then going back for PlayerPrefs to update. (tried using PlayerPrefs.Save() immediately upon click, but doesn't work somewhat*
+-Two buttons unlock and lock all levels from top down in the level pick scene, respectively, *but require a scene restart by clicking on the home button to return, then going back for PlayerPrefs to update. (tried calling PlayerPrefs.Save() immediately upon click, but doesn't work somewhat*
 
 -Added some bonus cool sound effects and background music with a small feature.
 
