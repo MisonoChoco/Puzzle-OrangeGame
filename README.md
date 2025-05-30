@@ -12,5 +12,6 @@
 ***Note:*** The requirements were to make this on mobile, but I have never developed a mobile game before, so of course, I do not know how to port this to mobile. The editor was 2D Mobile Platform, but after trying to test on Device Simulator running iOS, the entire game broke lol.
 
 <details>
-  <summary>Thanks to GPT for sponsoring this intern assignment</summary>
+  <summary></summary>
+  Thanks to GPT for sponsoring this intern assignment
 </details>
