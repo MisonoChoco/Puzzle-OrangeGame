@@ -1,7 +1,10 @@
 # Unison-Puzzle-OrangeGame-NotForMobile
 -The Next Level button on the Win Scene functionality isn't working. The scripts are there, I tried fixing them, but somehow miserably failed.
+
 -Level button locking is also missing. Will try to make it if I have more time before the deadline.
+
 -Added some bonus cool sound effects and background music with a small feature.
+
 -A new level scene can be easily created by duplicating a random level scene, then changing the fruit pieces/obstacles' initial spawn position inside the FruitController/GridManager* GameObject.
 
 *Also tile grid size too.
