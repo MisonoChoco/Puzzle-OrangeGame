@@ -13,5 +13,5 @@
 
 <details>
   <summary>dont click here</summary>
-  Thanks to GPT for sponsoring this intern assignment
+  Thanks to GPT and Copilot for sponsoring this intern assignment ^^
 </details>
