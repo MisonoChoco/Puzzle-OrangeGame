@@ -1,7 +1,7 @@
 # Unison-Puzzle-OrangeGame-NotForMobile
--The Next Level button on the Win Scene functionality isn't working. The scripts are there, I tried fixing them, but somehow miserably failed.
+-The Next Level button on the Win Scene functionality isn't working. Please try pressing the Home button to return to the Level Picking scene, then continue. The scripts are there, I tried fixing them, but somehow miserably failed.
 
--Level button locking is also missing. Will try to make it if I have more time before the deadline.
+-Level button locking is missing. Will try to make it if I have more time before the deadline.
 
 -Added some bonus cool sound effects and background music with a small feature.
 
