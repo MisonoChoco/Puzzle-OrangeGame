@@ -9,9 +9,5 @@
 
 *Also tile grid size too.
 
-***Note: The requirements were to make this on mobile, but I have never developed a mobile game before, so of course, I do not know how to port this to mobile. The editor was 2D Mobile Platform, but after trying to test on Device Simulator running iOS, the game broke in a weird way lol.***
+***Note: This one is super faulty, I'm not a puzzle game person nor mobile game developer. I was FORCED to make this.***
 
-<details>
-  <summary>dont click here</summary>
-  Thanks to GPT and Copilot for sponsoring this intern assignment ^^
-</details>
